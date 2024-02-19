@@ -1,0 +1,27 @@
+{
+
+    "ready": "Bot Activated Successfully!",
+    "loginError": "Bot Failed to Login! Please Check Your Information.\n{errorMessage}",
+    "commandError": "An Error Occurred with the Command, Please Check the Required Information!",
+    "emptyMessage": "Where Are Your Words Bro? Are You Kidding Me?",
+    "gameReset": "The Game Has Been Reset!\n\n> Person Resetting the Game: {userMention}\nThe Game Will Start with the First Word Written.",
+    "gameTourError": "Unfortunately, the Game Cannot Be Reset Now, In order to Reset the Game, there must be at least {maxTour} Tours!\nCurrent Number of Tours of the Game: {tour}",
+    "usedWordError": "This Word Has Been Used Before!",
+    "sameUserError": "You Used Your Right to the Previous Round, Please Wait for the Next Round!",
+    "wordNotFound": "The {userMention} word is not found in the dictionary, please write a correct word!",
+    "lastWordError": "You started with the wrong letter, the letter you should start with is `{lastWord}`",
+    "permissionError": "You must have {permission} privilege to use this command!",
+    "commandSuccess": "Operation Completed Successfully!",
+    "notNumberError": "Please Enter a Valid Number!",
+    "boomGameStart": "Boom Game Started!\n\n> Game Starter: {userMention}\nThe Game Started with Number 1.\nBom Will Go 5 by 5.",
+    "boomGameError": "Incorrect Login, Please Continue with a Correct Value.",
+    "languageError": "Please Enter a Valid Language Code!\n\nSupported Languages: {allLangs}",
+    "languageSuccess": "Language Changed Successfully!\n\n> New Language: {lang}",
+    "gameResetCounting": "Game Reset!",
+    "countionGameStart": "Counting Game Started!\n\n> Game Starter: {userMention}\nGame Started with Number 1.",
+    "noCommand": "Failed to Capture Command Data, Please Try Again Later!",
+    "helpMenu": "Help Menu",
+    "selectMenuPlaceholder": "Please Select an Option",
+    "commandHelp": "> **Command Name:** {commandName}\n> **Command Description:** {commandDescription}\n> **Label:** {commandMention}\n> **Options:** {commandOptions}\n> **Other Supported Languages:** {commandLangs}"
+
+}

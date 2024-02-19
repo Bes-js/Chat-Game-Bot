@@ -1,0 +1,27 @@
+{
+
+    "ready": "Bot activé avec succès!",
+    "loginError": "Le robot n'a pas pu se connecter ! Veuillez vérifier vos informations.\n{errorMessage}",
+    "commandError": "Une erreur s'est produite avec la commande, veuillez vérifier les informations requises !",
+    "emptyMessage": "Où sont tes mots, frère ? Tu te moques de moi ?",
+    "gameReset": "Le jeu a été réinitialisé !\n\n> Personne réinitialisant le jeu : {userMention}\nLe jeu commencera avec le premier mot écrit.",
+    "gameTourError": "Malheureusement, le jeu ne peut pas être réinitialisé maintenant. Pour réinitialiser le jeu, il doit y avoir au moins {maxTour} Tours !\nNombre actuel de tours du jeu : {tour}",
+    "usedWordError": "Ce mot a déjà été utilisé !",
+    "sameUserError": "Vous avez utilisé votre droit au tour précédent, veuillez attendre le tour suivant !",
+    "wordNotFound": "Le mot {userMention} est introuvable dans le dictionnaire, veuillez écrire un mot correct !",
+    "lastWordError": "Vous avez commencé avec la mauvaise lettre, la lettre par laquelle vous devriez commencer est `{lastWord}`",
+    "permissionError": "Vous devez disposer du privilège {permission} pour utiliser cette commande !",
+    "commandSuccess": "Opération terminée avec succès !",
+    "notNumberError": "Veuillez entrer un numéro valide !",
+    "boomGameStart": "Boom Game Started !\n\n> Game Starter : {userMention}\nLe jeu a commencé avec le numéro 1.\nBom ira 5 par 5.",
+    "boomGameError": "Connexion incorrecte, veuillez continuer avec une valeur correcte.",
+    "langageError": "Veuillez saisir un code de langue valide !\n\nLangues prises en charge : {allLangs}",
+    "langueSuccess": "La langue a été modifiée avec succès !\n\n> Nouvelle langue : {lang}",
+    "gameResetCounting": "Réinitialisation du jeu !",
+    "countionGameStart": "Jeu de comptage commencé !\n\n> Démarreur du jeu : {userMention}\nJeu commencé avec le numéro 1.",
+    "noCommand": "Échec de la capture des données de commande, veuillez réessayer plus tard !",
+    "helpMenu": "Menu Aide",
+    "selectMenuPlaceholder": "Veuillez sélectionner une option",
+    "commandHelp": "> **Nom de la commande :** {commandName}\n> **Description de la commande :** {commandDescription}\n> **Étiquette :** {commandMention}\n> **Options :** {commandOptions}\n> **Autres langues prises en charge :** {commandLangs}"
+
+}

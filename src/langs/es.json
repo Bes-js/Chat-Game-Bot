@@ -1,0 +1,27 @@
+{
+
+    "ready": "¡Bot activado exitosamente!",
+    "loginError": "¡El robot no pudo iniciar sesión! Verifique su información.\n{errorMessage}",
+    "commandError": "Ocurrió un error con el comando. ¡Verifique la información requerida!",
+    "emptyMessage": "¿Dónde están tus palabras hermano? ¿Estás bromeando?",
+    "gameReset": "¡El juego se ha reiniciado!\n\n> Persona que reinicia el juego: {userMention}\nEl juego comenzará con la primera palabra escrita.",
+    "gameTourError": "Desafortunadamente, el juego no se puede reiniciar ahora. Para reiniciar el juego, ¡debe haber al menos {maxTour} recorridos!\nNúmero actual de recorridos del juego: {tour}",
+    "usedWordError": "¡Esta palabra ya se ha usado antes!",
+    "sameUserError": "Usaste tu derecho a la ronda anterior, ¡espera a la siguiente ronda!",
+    "wordNotFound": "La palabra {userMention} no se encuentra en el diccionario, ¡escriba la palabra correcta!",
+    "lastWordError": "Empezaste con la letra equivocada, la letra con la que deberías empezar es `{lastWord}`",
+    "permissionError": "¡Debes tener el privilegio {permission} para usar este comando!",
+    "commandSuccess": "¡Operación completada exitosamente!",
+    "notNumberError": "¡Ingrese un número válido!",
+    "boomGameStart": "¡El juego Boom comenzó!\n\n> Inicio del juego: {userMention}\nEl juego comenzó con el número 1.\nBom irá de 5 en 5.",
+    "boomGameError": "Inicio de sesión incorrecto, continúe con un valor correcto.",
+    "languageError": "¡Ingrese un código de idioma válido!\n\nIdiomas admitidos: {allLangs}",
+    "languageSuccess": "¡Idioma cambiado exitosamente!\n\n> Nuevo idioma: {lang}",
+    "gameResetCounting": "¡Reinicio del juego!",
+    "countionGameStart": "¡El juego de conteo comenzó!\n\n> Inicio del juego: {userMention}\nEl juego comenzó con el número 1.",
+    "noCommand": "Error al capturar los datos del comando. ¡Inténtelo de nuevo más tarde!",
+    "helpMenu": "Menú Ayuda",
+    "selectMenuPlaceholder": "Por favor seleccione una opción",
+    "commandHelp": "> **Nombre del comando:** {commandName}\n> **Descripción del comando:** {commandDescription}\n> **Etiqueta:** {commandMention}\n> **Opciones:** {commandOptions}\n> **Otros idiomas admitidos:** {commandLangs}"
+
+}

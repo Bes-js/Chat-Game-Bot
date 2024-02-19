@@ -1,0 +1,27 @@
+{
+
+    "ready": "Bot Başarıyla Aktif Edildi!",
+    "loginError": "Bot Giriş Yapamadı! Lütfen Bilgilerinizi Kontrol Edin.\n {errorMessage}",
+    "commandError": "Komut İle İlgili Bir Hata Oluştu, Lütfen Gerekli Bilgileri Kontrol Edin!",
+    "emptyMessage": "Kelimen Nerede Gardaş? Dalgamı Geçiyorsun?",
+    "gameReset": "Oyun Sıfırlandı!\n\n> Oyunu Sıfırlayan Kişi: {userMention}\nYazılan İlk Kelime İle Oyun Başliyacaktır.",
+    "gameTourError": "Malesef Şuanda Oyun Sıfırlanamaz, Oyunu Sıfırlayabilmek İçin En Az {maxTour} Tur Olması Gerekmektedir!\nŞuanda Oyunun Tur Sayısı: {tour}",
+    "usedWordError": "Bu Kelime Daha Önce Kullanılmış!",
+    "sameUserError": "Bir Önceki Tur Hakkını Kullandın, Lütfen Bir Sonraki Turu Bekle!",
+    "wordNotFound": "{userMention} Kelime Sözlükte Bulunmamakta, Lütfen Doğru Bir Kelime Yazınız!",
+    "lastWordError": "Yanlış Harf İle Başladın, Başlaman Gereken Harf: `{lastWord}`",
+    "permissionError": "Bu Komutu Kullanabilmen İçin {permission} Yetkisine Sahip Olmalısın!",
+    "commandSuccess": "İşlem Başarıyla Gerçekleştirildi!",
+    "notNumberError": "Lütfen Geçerli Bir Sayı Girin!",
+    "boomGameStart": "Patlama Oyunu Başlatıldı!\n\n> Oyunu Başlatan Kişi: {userMention}\nOyun 1 Sayısı İle Başladı.\nBom 5'er 5'er Şekilde Gidicektir.",
+    "boomGameError": "Hatalı Giriş Yapıldı, Lütfen Doğru Bir Değer İle Devam Ediniz.",
+    "languageError": "Lütfen Geçerli Bir Dil Kodu Girin!\n\nDesteklenen Diller: {allLangs}",
+    "languageSuccess": "Dil Başarıyla Değiştirildi!\n\n> Yeni Dil: {lang}",
+    "gameResetCounting": "Oyun Sıfırlandı!",
+    "countionGameStart": "Sayma Oyunu Başlatıldı!\n\n> Oyunu Başlatan Kişi: {userMention}\nOyun 1 Sayısı İle Başladı.",
+    "noCommand": "Komut Verileri Çekilemedi, Lütfen Daha Sonra Tekrar Deneyin!",
+    "helpMenu": "Yardım Menüsü",
+    "selectMenuPlaceholder": "Lütfen Bir Seçenek Seçin",
+    "commandHelp": "> **Komut Adı:** {commandName}\n> **Komut Açıklaması:** {commandDescription}\n> **Etiket:** {commandMention}\n> **Seçenekler:** {commandOptions}\n> **Desteklenen Diğer Diller:** {commandLangs}"
+
+}

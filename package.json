@@ -1,0 +1,60 @@
+{
+  "name": "word-game-bot",
+  "version": "1.0.0",
+  "description": "A Multi-Language Supported Bot that Includes Word Games, Boom Games and Counting Games via Chat Made for the Discord Platform.",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "cls && ts-node src/index.ts",
+    "start:build": "node build/src/index.js",
+    "build": "tsc --project tsconfig.json",
+    "dev": "ts-node src/index.ts",
+    "bot:start": "npm run build && node --enable-source-maps build/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon --exec npm run start"
+  },
+  "keywords": [
+    "chat",
+    "game",
+    "chat-game",
+    "discord",
+    "typescript",
+    "ts-node",
+    "discord.js",
+    "discord-api-types",
+    "better-sqlite3",
+    "quick.db",
+    "axios",
+    "chalk"
+  ],
+  "author": {
+    "name": "Bes-js",
+    "url": "https://github.com/Bes-js"
+  },
+  "funding": {
+    "url": "https://www.paytr.com/link/2qh0pLB?lang=en",
+    "type": "paytr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bes-js/Chat-Game-Bot"
+  },
+  "homepage": "https://github.com/Bes-js/",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "better-sqlite3": "^9.4.1",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "quick.db": "^9.1.7"
+  },
+  "bugs": {
+    "url": "https://github.com/Bes-js/Chat-Game-Bot"
+  }
+}
